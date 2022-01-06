@@ -17,9 +17,10 @@ class De extends React.Component {
         return (
             <div>
                 <div>
+                    <h2>Score: {this.props.score} / {this.props.clicks} Clks</h2>
+                    <h2>{this.props.status}</h2>
                     <img src={this.state.images[this.props.de1]}/>
                     <img src={this.state.images[this.props.de2]} />
-                    <h2>{this.props.status}</h2>
                 </div>
             </div>
             );
